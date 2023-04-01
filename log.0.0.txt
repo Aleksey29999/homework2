@@ -1,0 +1,12 @@
+апр. 01, 2023 10:17:46 PM task.Task1 write
+INFO: Recorded! :)
+апр. 01, 2023 10:23:32 PM task.Task1 write
+WARNING: Recorded! :)
+апр. 01, 2023 10:29:08 PM task.Task1 write
+WARNING: Recorded! :)
+апр. 01, 2023 10:55:46 PM task.Task1 write
+WARNING: Recorded! :)
+апр. 01, 2023 10:55:46 PM task.Task1 write
+WARNING: Error
+апр. 01, 2023 10:56:08 PM task.Task1 write
+WARNING: Recorded! :)
