@@ -26,19 +26,23 @@ public class Task1 {
         }
     }
 
-    public static int[] array(String path) {
-
-        int[] array = new int[]{5, 9, 8, 98, 55, 56, 321, 74, 1, 1, 3, 32, 5, 8, 56, 666, 78, 5};
+    public static int[] array(String path) throws IOException {
+        FileWriter writer= new FileWriter("task11.txt");
+        int[] array = new int[]{98, 56, 32, 14, 8, 6, 5, 4, 1};
         System.out.println(Arrays.toString(array));
+
         int temp = 0;
-        for (int i = 0; i < array.length ; i++) {
+        for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length-1; j++) {
                 if (array[j] > array[j + 1]) {
                     temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
+
                 }
+                writer.write(Arrays.toString(array) + "\n");
             }
+
         }
         System.out.println(Arrays.toString(array));
         return array;
